@@ -3,9 +3,9 @@ Contributors: RealMag777
 Donate link: https://pluginus.net/affiliate/woocommerce-products-filter
 Tags: filter, product filter, woocommerce, woof, ajax filter
 Requires at least: 6.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.3.8.1
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,12 +110,12 @@ Latest PHP 8.x.x - COMPATIBLE!
 
 🛠️&nbsp;**Strong technical support which each day works with tones of code!**
 
-✨&nbsp;The premium version: [CODECANYON](https://products-filter.com/a/buy)
+✨&nbsp;[The premium version](https://products-filter.com/downloads)
 
 
 
 
-**You can get premium version of the plugin here**: [CODECANYON](https://products-filter.com/a/buy)
+**You can get premium version of the plugin on**: [products-filter.com](https://products-filter.com/downloads)
 
 
 ### Make your site more profitable with next powerful scripts:
@@ -158,7 +158,7 @@ Q: Where can I see video tutorials?
 R: [Video Tutorials](https://products-filter.com/video/)
 
 Q: Where can I get the Premium version of HUSKY
-R: [Codecanyon](https://products-filter.com/a/buy)
+R: [products-filter.com](https://products-filter.com/downloads)
 
 Q: How to create a custom taxomomy?
 R: Use [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/)
@@ -181,6 +181,21 @@ R: You can report security bugs through the Patchstack Vulnerability Disclosure 
 
 
 == Changelog ==
+
+= 1.4.0 =
+* Fixed: shortcode [woof_slideout] attribute tax_exclude
+* Tested with latest woocommerce version 10.9.1
+
+= 1.3.9 =
+* Improved: sanitization of request data to comply with WordPress coding standards
+* Fixed: settings not saving due to incorrect JSON decoding
+* Fixed: infinite recursion in stat extension caused by woof_get_request_data filter
+* Fixed: textarea fields showing wrong quotes and extra whitespace in admin
+* Fixed: radio reset button not working with iCheck
+* Fixed: PHP warning from file_put_contents in smart_designer extension
+
+= 1.3.8.2 =
+* Fixed: prevent conflicts when used alongside HUSKY premium version
 
 = 1.3.8.1 =
 * fixed issue with front_comprssd.js file
@@ -495,7 +510,7 @@ add_filter('woof_sku_autocomplete_items', function($count){
 
 = 1.0.7 =
 * Too much improvements
-* Premium version on codecanyon: [https://products-filter.com/a/buy](https://products-filter.com/a/buy)
+* Premium version on: [products-filter.com](https://products-filter.com/downloads)
 
 = 1.0.5 =
 * Heap of bugs from customers is fixed
